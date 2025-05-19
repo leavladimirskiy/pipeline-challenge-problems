@@ -1,5 +1,6 @@
 import pandas as pd
 
+file_path = "/Users/leastavnitser/Projects/price_data.csv"
 
 def parse_log_file(file_path):
     
@@ -10,6 +11,5 @@ def parse_log_file(file_path):
     return null_count, df
 
 
-file_path = "/Users/leastavnitser/Projects/price_data.csv"
 nulls, data = parse_log_file(file_path)
 print(f"Null values: {nulls}")
