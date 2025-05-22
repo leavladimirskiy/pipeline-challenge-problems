@@ -1,4 +1,4 @@
-portfolio = {'AAPL': 30, 'GOOG': 5}
+portfolio = {'AAPL': 30, 'GOOG': 10}
 prices = {'AAPL': 170.5, 'GOOG': 2800.75}
 
 def calculate_portfolio_value(portfolio, prices):

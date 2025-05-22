@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-filename = "/Users/leastavnitser/Projects/price_data.csv"
+filename = "price_data.csv"
 df = pd.read_csv(filename)
 
 

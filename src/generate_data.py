@@ -13,7 +13,7 @@ headers = ["timestamp", "symbol", "price", "volume"]
 # Sample stock symbols
 symbols = ["AAPL", "GOOGL", "MSFT", "AMZN", "TSLA"]
 
-def maybe_null(value, null_probability=0.05):
+def maybe_null(value, null_probability=0.07):
     return value if random.random() > null_probability else None
 
 # Write CSV
